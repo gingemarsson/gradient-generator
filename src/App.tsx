@@ -50,7 +50,7 @@ const App: React.FC = () => {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-gray-800">
-      <h1 className="text-4xl font-bold text-white m-4">Gradient</h1>
+      <h1 className="text-4xl font-bold text-white m-4">Gradient Generator</h1>
       <div className="overflow-hidden">
       <div className="blur-md">
         {Array.from({ length: rows }).map((_, i) => (
