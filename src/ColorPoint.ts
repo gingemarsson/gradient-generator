@@ -6,4 +6,5 @@ export type ColorPoint = {
   g: number;
   b: number;
   strength: number;
+  size: number;
 };
